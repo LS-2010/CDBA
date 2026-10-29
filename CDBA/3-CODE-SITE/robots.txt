@@ -1,0 +1,5 @@
+# [À CONFIRMER] Remplacer domaine-a-confirmer.example par le vrai domaine avant la mise en ligne.
+User-agent: *
+Allow: /
+
+Sitemap: https://domaine-a-confirmer.example/sitemap.xml

@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "debordement": "node debordement.mjs",
+    "pages": "node pages.mjs",
+    "clavier": "node clavier.mjs",
+    "comptes": "node comptes.mjs",
+    "contraste": "node contraste.mjs",
+    "cibles": "node cibles.mjs",
+    "espaces": "node espaces.mjs",
+    "firefox:contraste": "NAVIGATEUR=firefox node contraste.mjs",
+    "firefox:cibles": "NAVIGATEUR=firefox node cibles.mjs",
+    "firefox:debordement": "NAVIGATEUR=firefox node debordement.mjs",
+    "firefox:pages": "NAVIGATEUR=firefox node pages.mjs",
+    "firefox:clavier": "NAVIGATEUR=firefox node clavier.mjs",
+    "firefox:comptes": "NAVIGATEUR=firefox node comptes.mjs",
+    "firefox:espaces": "NAVIGATEUR=firefox node espaces.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

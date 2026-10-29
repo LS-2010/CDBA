@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [À CONFIRMER] Remplacer domaine-a-confirmer.example par le vrai domaine avant la mise en ligne.
+     Pages publiques seulement. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://domaine-a-confirmer.example/</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/inscription.html</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/mentions-legales.html</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/confidentialite.html</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/conditions.html</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/cookies.html</loc></url>
+  <url><loc>https://domaine-a-confirmer.example/credits.html</loc></url>
+</urlset>

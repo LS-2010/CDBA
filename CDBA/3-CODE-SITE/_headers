@@ -1,0 +1,10 @@
+# En-têtes de sécurité pour les hébergeurs qui lisent ce fichier (Netlify, Cloudflare Pages).
+# CSP identique à la balise meta des pages, plus frame-ancestors (impossible en meta).
+# GitHub Pages ignore ce fichier. Voir docs/19-AUDIT-SECURITE.md.
+/*
+  Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+# Production en HTTPS seulement, une fois le domaine définitif en place :
+#  Strict-Transport-Security: max-age=31536000
